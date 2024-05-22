@@ -23,4 +23,5 @@ urlpatterns = [
     path('', views.homepage),
     path('home', views.homepage),
     path('feed/', include('feed.urls')),
+    path('accounts/', include('accounts.urls')),
 ]
